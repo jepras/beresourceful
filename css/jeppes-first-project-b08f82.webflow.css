@@ -92,13 +92,17 @@ figure {
 .banner {
   height: 100vh;
   padding: 40px;
-  background-image: radial-gradient(circle farthest-corner at 50% 50%, #22b797 46%, #15909f);
+  background-image: radial-gradient(
+    circle farthest-corner at 50% 50%,
+    #22b797 46%,
+    #15909f
+  );
 }
 
 .banner.sub {
   height: 600px;
   background-color: #f5f5f7;
-  background-image: url('../images/sub-2.jpg');
+  background-image: url("../images/sub-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -288,7 +292,7 @@ figure {
   align-items: center;
   border-radius: 100%;
   background-color: #fff;
-  box-shadow: 7px -7px 50px -10px rgba(103, 117, 130, .3);
+  box-shadow: 7px -7px 50px -10px rgba(103, 117, 130, 0.3);
   -webkit-transform: translate(-50%, 0px);
   -ms-transform: translate(-50%, 0px);
   transform: translate(-50%, 0px);
@@ -322,7 +326,7 @@ figure {
 
 .logo-image {
   display: none;
-  width: 140px;
+  width: 100px;
   margin-right: 15px;
 }
 
@@ -586,7 +590,7 @@ figure {
   right: 0px;
   width: 100%;
   height: 100%;
-  background-color: rgba(21, 144, 159, .11);
+  background-color: rgba(21, 144, 159, 0.11);
 }
 
 .link-text {
@@ -634,7 +638,7 @@ figure {
   margin-right: 20px;
   margin-left: 60px;
   float: left;
-  background-image: url('../images/banter-snaps-128471-unsplash.jpg');
+  background-image: url("../images/banter-snaps-128471-unsplash.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat;
@@ -645,7 +649,7 @@ figure {
   height: 320px;
   margin-bottom: 10px;
   float: left;
-  background-image: url('../images/christopher-burns-368617-unsplash.jpg');
+  background-image: url("../images/christopher-burns-368617-unsplash.jpg");
   background-position: 100% 50%;
   background-size: cover;
 }
@@ -655,7 +659,7 @@ figure {
   height: 320px;
   margin-top: 10px;
   float: left;
-  background-image: url('../images/rob-lambert-64186-unsplash.jpg');
+  background-image: url("../images/rob-lambert-64186-unsplash.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -786,7 +790,11 @@ figure {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: linear-gradient(315deg, rgba(34, 183, 151, .6), rgba(21, 144, 159, .9));
+  background-image: linear-gradient(
+    315deg,
+    rgba(34, 183, 151, 0.6),
+    rgba(21, 144, 159, 0.9)
+  );
 }
 
 .project-button {
@@ -887,7 +895,7 @@ figure {
   height: 212px;
   border: 5px solid #fff;
   border-radius: 100%;
-  background-image: url('../images/team-7.jpg');
+  background-image: url("../images/team-7.jpg");
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -896,31 +904,31 @@ figure {
 .testimonials-photo._2 {
   width: 142px;
   height: 142px;
-  background-image: url('../images/team-2.jpg');
+  background-image: url("../images/team-2.jpg");
 }
 
 .testimonials-photo._3 {
   width: 172px;
   height: 172px;
-  background-image: url('../images/team-3.jpg');
+  background-image: url("../images/team-3.jpg");
 }
 
 .testimonials-photo._4 {
   width: 172px;
   height: 172px;
-  background-image: url('../images/team-4_1.jpg');
+  background-image: url("../images/team-4_1.jpg");
 }
 
 .testimonials-photo._5 {
   width: 132px;
   height: 132px;
-  background-image: url('../images/team-1_1.jpg');
+  background-image: url("../images/team-1_1.jpg");
 }
 
 .testimonials-photo._6 {
   width: 132px;
   height: 132px;
-  background-image: url('../images/team-3_1.jpg');
+  background-image: url("../images/team-3_1.jpg");
 }
 
 .testimonials-overlay {
@@ -1005,7 +1013,7 @@ figure {
   align-items: center;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 4px 4px 30px 5px rgba(0, 0, 0, .03);
+  box-shadow: 4px 4px 30px 5px rgba(0, 0, 0, 0.03);
   text-align: center;
 }
 
@@ -1101,7 +1109,7 @@ figure {
 
 .line-wrapper-second.second {
   background-color: transparent;
-  box-shadow: inset 0 0 0 1px hsla(0, 0%, 100%, .3);
+  box-shadow: inset 0 0 0 1px hsla(0, 0%, 100%, 0.3);
 }
 
 .line-wrapper-second.second.in-footer-nav {
@@ -1250,7 +1258,7 @@ figure {
 
 .process-title {
   margin-bottom: 20px;
-  font-family: 'Shadows Into Light', sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
   color: #fff;
   line-height: 30px;
 }
@@ -1314,7 +1322,7 @@ figure {
   width: 600px;
   height: 600px;
   border-radius: 100%;
-  background-image: url('../images/circle-shape.svg');
+  background-image: url("../images/circle-shape.svg");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -1399,7 +1407,7 @@ figure {
 .fun-fact-wrapper {
   padding: 30px;
   background-color: #fff;
-  box-shadow: 31px 31px 44px -22px rgba(0, 0, 0, .05);
+  box-shadow: 31px 31px 44px -22px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
 
@@ -1458,7 +1466,7 @@ figure {
   height: 1px;
   margin-top: 35px;
   margin-bottom: 15px;
-  background-color: hsla(0, 0%, 100%, .05);
+  background-color: hsla(0, 0%, 100%, 0.05);
 }
 
 .copyright {
@@ -1468,7 +1476,7 @@ figure {
 .link {
   display: inline-block;
   font-family: Lora, sans-serif;
-  color: hsla(0, 0%, 100%, .87);
+  color: hsla(0, 0%, 100%, 0.87);
   text-decoration: underline;
 }
 
@@ -1512,7 +1520,7 @@ figure {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-image: url('../images/example-bg.png');
+  background-image: url("../images/example-bg.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1644,7 +1652,7 @@ figure {
 .sidebar-title {
   margin-bottom: 40px;
   padding-bottom: 10px;
-  border-bottom: 1px solid hsla(0, 0%, 100%, .05);
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
   color: #fff;
   font-size: 13px;
   letter-spacing: 2px;
@@ -2432,26 +2440,38 @@ figure {
 }
 
 @font-face {
-  font-family: 'Avenir';
-  src: url('../fonts/AvenirNextLTPro-BoldIt.otf') format('opentype'), url('../fonts/AvenirNextLTPro-Bold.otf') format('opentype'), url('../fonts/AvenirNextLTPro-BoldIt.otf') format('opentype');
+  font-family: "Avenir";
+  src: url("../fonts/AvenirNextLTPro-BoldIt.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-Bold.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-BoldIt.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Avenir';
-  src: url('../fonts/AvenirNextLTPro-Demi.otf') format('opentype'), url('../fonts/AvenirNextLTPro-It.otf') format('opentype'), url('../fonts/AvenirNextLTPro-DemiCn.otf') format('opentype'), url('../fonts/AvenirNextLTPro-Regular.otf') format('opentype'), url('../fonts/AvenirNextLTPro-CnIt.otf') format('opentype'), url('../fonts/AvenirNextLTPro-CnIt.otf') format('opentype'), url('../fonts/AvenirNextLTPro-DemiCnIt.otf') format('opentype'), url('../fonts/AvenirNextLTPro-Regular.otf') format('opentype'), url('../fonts/AvenirNextLTPro-It.otf') format('opentype'), url('../fonts/AvenirNextLTPro-Demi.otf') format('opentype'), url('../fonts/AvenirNextLTPro-DemiCn.otf') format('opentype');
+  font-family: "Avenir";
+  src: url("../fonts/AvenirNextLTPro-Demi.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-It.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-DemiCn.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-Regular.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-CnIt.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-CnIt.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-DemiCnIt.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-Regular.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-It.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-Demi.otf") format("opentype"),
+    url("../fonts/AvenirNextLTPro-DemiCn.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Avenir';
-  src: url('../fonts/AvenirNextLTPro-Heavy.otf') format('opentype');
+  font-family: "Avenir";
+  src: url("../fonts/AvenirNextLTPro-Heavy.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Avenir';
-  src: url('../fonts/AvenirNextLTPro-Medium.otf') format('opentype');
+  font-family: "Avenir";
+  src: url("../fonts/AvenirNextLTPro-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
