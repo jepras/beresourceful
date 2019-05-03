@@ -102,7 +102,6 @@ figure {
 .banner.sub {
   height: 600px;
   background-color: #f5f5f7;
-  background-image: url("../images/sub-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -325,8 +324,9 @@ figure {
 }
 
 .logo-image {
-  display: none;
-  width: 100px;
+  display: block;
+  width: 70px !important;
+  height: 70px !important;
   margin-right: 15px;
 }
 
@@ -643,6 +643,17 @@ figure {
   background-size: cover;
   background-repeat: repeat;
 }
+.first-photo {
+  width: 500px;
+  height: 100%;
+  margin-right: 20px;
+  margin-left: 60px;
+  float: left;
+  background-image: url("../images/banter-snaps-128471-unsplash.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+}
 
 .second-photo {
   width: 500px;
@@ -662,6 +673,20 @@ figure {
   background-image: url("../images/rob-lambert-64186-unsplash.jpg");
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.first-photo.use {
+  background-image: url("../images/tnt-diagram-inv.png");
+  margin-left: 0px;
+  width: 600px;
+}
+
+.second-photo.use {
+  background-image: url("../images/christopher-burns-368617-unsplash.jpg");
+}
+
+.third-photo.use {
+  background-image: url("../images/rob-lambert-64186-unsplash.jpg");
 }
 
 .left-padding {
@@ -1190,6 +1215,7 @@ figure {
 }
 
 .team-social {
+  display: none !important;
   position: absolute;
   left: 0px;
   right: 0px;
@@ -1904,11 +1930,11 @@ figure {
 }
 
 .column-5 {
-  display: none;
+  display: block;
 }
 
 .column-6 {
-  display: none;
+  display: block;
 }
 
 .image-2 {
@@ -1956,11 +1982,10 @@ figure {
     height: 300px;
   }
   .banner-second {
+    position: relative;
     height: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-bottom: 1px solid #e1e1e1;
   }
+
   .section {
     padding-right: 15px;
     padding-left: 15px;
@@ -2161,6 +2186,9 @@ figure {
   }
   .problem {
     margin-top: 140px;
+  }
+  .problem.use {
+    margin-top: 0px;
   }
   .about-wrapper {
     height: 400px;

@@ -2,24 +2,29 @@
 <!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Sat Apr 06 2019 15:40:01 GMT+0000 (UTC)  -->
 <html
-  data-wf-page="5b5b5c9ebbcd2fa316888b96"
+  data-wf-page="5b5b5c9ebbcd2f2671888b8a"
   data-wf-site="5b5b5c9ebbcd2f5203888b86"
 >
   <head>
     <meta charset="utf-8" />
-    <title>Tempo - Creative Webflow Website Template</title>
+    <title>Resourceful - End to end solution to reuse construction waste</title>
     <meta
-      content="A nice, beautiful, powerful &amp; simply wonderful Webflow agency responsive website template for creatives and agencies alike."
+      content="We are developing a digital platform that helps manufacturers to reuse building components by digitalising them with sensors"
       name="description"
     />
     <meta
-      content="Tempo - Creative Webflow Website Template"
+      content="Resourceful - End to end solution to reuse construction waste"
       property="og:title"
     />
     <meta
-      content="A nice, beautiful, powerful &amp; simply wonderful Webflow agency responsive website template for creatives and agencies alike."
+      content="We are developing a digital platform that helps manufacturers to reuse building components by digitalising them with sensors"
       property="og:description"
     />
+    <meta
+      property="og:image"
+      content="https://beresourceful.org/images/metaimage.png"
+    />
+
     <meta content="summary" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
@@ -34,7 +39,7 @@
       src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"
       type="text/javascript"
     ></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       WebFont.load({
         google: {
           families: [
@@ -44,7 +49,7 @@
           ]
         }
       });
-    </script>
+    </script> -->
     <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
     <script type="text/javascript">
       !(function(o, c) {
@@ -57,9 +62,16 @@
       })(window, document);
     </script>
     <link
-      href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico"
-      rel="shortcut icon"
-      type="image/x-icon"
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/logo-round-red.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/logo-round-red.png"
     />
     <link
       href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png"
@@ -72,7 +84,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="body">
     <div data-w-id="fe006660-f9a1-70d5-c8e5-9b19a7c021fb" class="preloader">
       <img
         src="images/puff.svg"
@@ -89,16 +101,11 @@
         >
           <div class="container in-navigation w-container">
             <div class="navigation-left">
-              <a href="index.html" class="logo-block w-inline-block"
+              <a href="index.html" class="logo-block w-inline-block w--current"
                 ><img
-                  src="images/rf-logo.png"
-                  width="140"
-                  srcset="
-                    images/rf-logo-p-500.png 500w,
-                    images/rf-logo.png       626w
-                  "
+                  src="images/logo-round.png"
+                  width="50"
                   sizes="100vw"
-                  data-w-id="c5c4ee57-59d5-3fb9-2ee1-d4444f814c28"
                   alt=""
                   class="logo-image"
                 />
@@ -106,21 +113,10 @@
               >
             </div>
             <div class="navigation-right">
-              <a href="#" class="social-icon w-hidden-tiny w-inline-block"
-                ><img
-                  src="images/font-awesome_4-7-0_facebook_100_0_212127_none_1font-awesome_4-7-0_facebook_100_0_212127_none.png"
-                  width="16"
-                  alt=""/></a
-              ><a href="#" class="social-icon w-hidden-tiny w-inline-block"
-                ><img
-                  src="images/font-awesome_4-7-0_twitter_100_0_212127_none_1font-awesome_4-7-0_twitter_100_0_212127_none.png"
-                  width="16"
-                  alt=""/></a
-              ><a href="#" class="social-icon w-hidden-tiny w-inline-block"
-                ><img
-                  src="images/font-awesome_4-7-0_instagram_100_0_212127_none_1font-awesome_4-7-0_instagram_100_0_212127_none.png"
-                  width="16"
-                  alt=""
+              <a
+                href="https://www.linkedin.com/company/beresourceful/"
+                class="social-icon w-hidden-tiny w-inline-block"
+                ><img src="images/fa-linkedin.png" width="16" alt=""
               /></a>
               <div
                 data-w-id="c5c4ee57-59d5-3fb9-2ee1-d4444f814c32"
@@ -154,7 +150,10 @@
               data-w-id="c5c4ee57-59d5-3fb9-2ee1-d4444f814c39"
               class="navigation-block"
             >
-              <a href="index.html" class="navigation-link w-inline-block">
+              <a
+                href="index.html"
+                class="navigation-link w-inline-block w--current"
+              >
                 <h1
                   data-w-id="c5c4ee57-59d5-3fb9-2ee1-d4444f814c3b"
                   class="nav-text"
@@ -167,24 +166,19 @@
                 ></div>
               </a>
             </div>
-            <div class="navigation-block _2">
-              <a href="team.html" class="navigation-link w-inline-block">
-                <h1 class="nav-text">Team</h1>
-                <div class="navigation-line"></div>
-              </a>
-            </div>
+
             <div class="navigation-block _3">
               <a href="product.html" class="navigation-link w-inline-block">
-                <h1 class="nav-text">Services</h1>
+                <h1 class="nav-text">Product</h1>
                 <div class="navigation-line"></div>
               </a>
             </div>
             <div class="navigation-block _4">
               <a
                 href="applications.html"
-                class="navigation-link w-inline-block w--current"
+                class="navigation-link w-inline-block"
               >
-                <h1 class="nav-text">Portfolio</h1>
+                <h1 class="nav-text">Applications</h1>
                 <div class="navigation-line"></div>
               </a>
             </div>
@@ -194,90 +188,178 @@
                 <div class="navigation-line"></div>
               </a>
             </div>
-            <div class="navigation-block _6">
+            <!-- <div class="navigation-block _6">
               <a href="contact.html" class="navigation-link w-inline-block">
                 <h1 class="nav-text">Contact</h1>
                 <div class="navigation-line"></div>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
+
       <div id="Top" class="banner sub">
         <div
-          data-w-id="67510778-bb5d-1e14-fb10-320b72bda840"
+          data-w-id="aeabe823-c7dc-9a38-a4e1-8ee4735c20e5"
           class="banner-second"
         >
           <div class="container in-banner sub-banner w-container">
             <div class="align-center">
               <div>
-                <h1 class="banner-title in-sub">Portfolio</h1>
-                <p class="big-paragraph in-sub">What we love to do</p>
+                <h1 class="banner-title in-sub">
+                  NEXT GENERATION OF TRACK & TRACE FOR CONSTRUCTION SITE
+                </h1>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="page-section">
-        <div id="Scroll" class="section zero-all-padding">
-          <div class="w-dyn-list">
-            <div class="w-dyn-items w-row">
-              <div class="potfolio-item w-dyn-item w-col w-col-6">
-                <a
-                  href="#"
-                  class="portfolio-wrapper full-portfolio w-inline-block"
-                  ><img src="" alt="" class="portfolio-image"/>
-                  <div class="portfolio-overlay">
-                    <div class="project-button">
-                      <div class="project-text">view project</div>
-                      <div class="project-line"></div>
-                    </div></div
-                ></a>
+        <div id="Scroll" class="section more-padding">
+          <div class="container w-container" id="work">
+            <div class="line-vertical"></div>
+
+            <div class="problem use without-margin">
+              <div class="flex-row make-normal w-row">
+                <div class="column-3 w-col w-col-4 w-col-stack">
+                  <div
+                    data-w-id="064d7cd1-d179-dbd3-7941-a2031146df94"
+                    style="opacity:0"
+                    class="left-padding"
+                  >
+                    <h1>Track & trace solution</h1>
+                    <div class="top-margin">
+                      <p class="big-paragraph">
+                        Basic awareness of where materials and building
+                        components are is a simple but powerful tool that saves
+                        time, money and frustration for all partners involved in
+                        construction.
+                      </p>
+                    </div>
+                    <div class="top-margin medium">
+                      <h4 class="left-service-title">How does it work?</h4>
+                      <p class="paragraph-small">
+                        We supply sensors that can be built into your product
+                        according to your own choice.<br /><br />
+                        We provide you with an interface that helps you GPS mark
+                        virtual boundaries of all your facilities as well as
+                        create sub-divisions within them.<br /><br />
+                        We supply the gateway that connects to all of your
+                        sensors. Gateways need to be placed in the key locations
+                        (factory, construction site) within 200m reach of
+                        sensors.
+                      </p>
+                    </div>
+
+                    <div class="top-margin medium">
+                      <a
+                        href="mailto:jeprasher@gmail.com"
+                        class="link-wrapper w-inline-block"
+                      >
+                        <div class="link-text">get in touch</div>
+                        <div class="link-line"></div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-col w-col-1 w-col-stack"></div>
+                <div class="w-col w-col-7 w-col-stack">
+                  <div class="about-wrapper w-clearfix">
+                    <div
+                      data-w-id="b4add424-d51d-7d59-c799-2120d0de39cc"
+                      style="opacity:0"
+                      class="first-photo use"
+                    ></div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="w-dyn-empty">
-              <div>No items found.</div>
+            <div class="top-title-wrapper">
+              <h1>What does that mean to you?</h1>
+              <p>
+                Basic awareness of where materials and building components are
+                is a simple but powerful tool that saves time, money and
+                frustration for all partners involved in construction &
+                demolishing.
+              </p>
             </div>
-          </div>
-        </div>
-        <div class="section gradient">
-          <div class="container w-container">
-            <div class="hero-wrapper">
-              <h1 class="hero-title">Let&#x27;s start together.</h1>
+            <div class="top-title-wrapper second-wrapper">
               <div>
-                <a
-                  href="contact.html"
-                  data-w-id="a87bf638-24ac-1b9f-4103-6122f327be31"
-                  class="line-wrapper-second add-margin w-inline-block"
-                >
-                  <div class="link-text-second">Drop us a line</div>
-                  <div
-                    style="-webkit-transform:translate3d(-130%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-130%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-130%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-130%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                    class="link-line-second"
-                  ></div>
-                </a>
-                <a
-                  href="contact.html"
-                  data-w-id="a87bf638-24ac-1b9f-4103-6122f327be35"
-                  class="line-wrapper-second second w-inline-block"
-                >
-                  <div class="link-text-second">estimate your project</div>
-                  <div
-                    style="-webkit-transform:translate3d(-130%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-130%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-130%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-130%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                    class="link-line-second"
-                  ></div>
-                </a>
+                <div class="w-row">
+                  <div class="w-col w-col-3 w-col-medium-6">
+                    <div class="fun-fact-wrapper">
+                      <img
+                        src="images/demolition.png"
+                        width="60"
+                        sizes="60px"
+                        alt=""
+                      />
+
+                      <p class="fun-paragraph">
+                        You know where exactly in the manufacturing facility
+                        each component is located
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-col w-col-3 w-col-medium-6">
+                    <div class="fun-fact-wrapper">
+                      <img src="images/ico-6.png" width="60" alt="" />
+                      <p class="fun-paragraph">
+                        Automatic updates to your dashboard notifying you that
+                        products are now: ‘ in transition,’ ‘delivered,’ ‘stored
+                        on plot X,’ ‘installed’
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-col w-col-3 w-col-medium-6">
+                    <div class="fun-fact-wrapper">
+                      <img
+                        src="images/training.png"
+                        width="60"
+                        srcset="
+                          images/demolition-p-500.png 500w,
+                          images/demolition.png       512w
+                        "
+                        sizes="60px"
+                        alt=""
+                      />
+                      <p class="fun-paragraph">
+                        Each product is linked to BIM and therefore all involved
+                        can see live updates on the 3d model
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-col w-col-3 w-col-medium-6">
+                    <div class="fun-fact-wrapper">
+                      <img
+                        src="images/platform.png"
+                        width="60"
+                        sizes="60px"
+                        alt=""
+                      />
+                      <p class="fun-paragraph">
+                        Data sharing is now easy and specific to each partner
+                        involved in a construction project. The manufacturer can
+                        choose what they liked to share with a construction
+                        company, an architect and vice versa.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="footer">
         <div class="container w-container">
           <div class="w-row">
             <div class="w-col w-col-3 w-col-stack">
               <div class="footer-wrapper">
-                <a href="index.html" class="footer-title w-inline-block"
+                <a
+                  href="index.html"
+                  class="footer-title w-inline-block w--current"
                   ><img
                     src="images/logo-w.png"
                     width="130"
@@ -295,7 +377,7 @@
                     alt=""
                 /></a>
                 <a
-                  href="#"
+                  href="#Top"
                   data-w-id="7d6c0e39-b3b9-c71a-aadb-5a5d91113df1"
                   class="line-wrapper-second in-top w-inline-block"
                 >
@@ -306,7 +388,10 @@
                   <p class="paragraph-white">
                     BeResourceful is developing a digital platform to help
                     manufacturers reuse building components by digitizing them
-                    with sensors.<br />
+                    with sensors.<br /><br />
+
+                    Højbro Plads 10, 1200 Copenhagen, Denmark<br />
+                    +4542838752
                   </p>
                 </div>
                 <div class="top-margin medium">
@@ -341,9 +426,9 @@
                     <a
                       href="index.html"
                       data-w-id="7d6c0e39-b3b9-c71a-aadb-5a5d91113e07"
-                      class="line-wrapper-second second in-footer-nav w-inline-block"
+                      class="line-wrapper-second second in-footer-nav w-inline-block w--current"
                     >
-                      <div class="link-text-second">home</div>
+                      <div class="link-text-second">Home</div>
                       <div class="link-line-second"></div>
                     </a>
                   </div>
@@ -353,7 +438,7 @@
                       data-w-id="7d6c0e39-b3b9-c71a-aadb-5a5d91113e0c"
                       class="line-wrapper-second second in-footer-nav w-inline-block"
                     >
-                      <div class="link-text-second">Services</div>
+                      <div class="link-text-second">Product</div>
                       <div class="link-line-second"></div>
                     </a>
                   </div>
@@ -361,9 +446,9 @@
                     <a
                       href="applications.html"
                       data-w-id="7d6c0e39-b3b9-c71a-aadb-5a5d91113e11"
-                      class="line-wrapper-second second in-footer-nav w-inline-block w--current"
+                      class="line-wrapper-second second in-footer-nav w-inline-block"
                     >
-                      <div class="link-text-second">Portfolio</div>
+                      <div class="link-text-second">Applications</div>
                       <div class="link-line-second"></div>
                     </a>
                   </div>
@@ -374,16 +459,6 @@
                       class="line-wrapper-second second in-footer-nav w-inline-block"
                     >
                       <div class="link-text-second">Blog</div>
-                      <div class="link-line-second"></div>
-                    </a>
-                  </div>
-                  <div>
-                    <a
-                      href="contact.html"
-                      data-w-id="7d6c0e39-b3b9-c71a-aadb-5a5d91113e1b"
-                      class="line-wrapper-second second in-footer-nav w-inline-block"
-                    >
-                      <div class="link-text-second">Contact</div>
                       <div class="link-line-second"></div>
                     </a>
                   </div>
@@ -400,37 +475,23 @@
                     <div class="w-dyn-items">
                       <div class="w-dyn-item">
                         <a href="#" class="blog-post-footer w-inline-block">
-                          <div class="blog-post-photo">
-                            <p class="meta-blog data"></p>
+                          <div
+                            class="blog-post-photo"
+                            style="background-image: url(images/training.png);"
+                          >
+                            <p class="meta-blog data">Workshop</p>
                           </div>
                           <div>
-                            <h4 class="blog-small-title"></h4>
-                            <p class="meta-blog"></p>
+                            <h4 class="blog-small-title">
+                              Co-Creating Track and Trace solutions with
+                              construction industry experts
+                            </h4>
+                            <p class="meta-blog">26th of April, 2019</p>
                           </div>
                         </a>
                       </div>
                     </div>
-                    <div class="w-dyn-empty">
-                      <div>No items found.</div>
-                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="line-divider"></div>
-          <div>
-            <div class="flex-row make-normal w-row">
-              <div class="w-col w-col-6 w-col-stack">
-                <div>
-                  <p class="copyright">© 2019</p>
-                </div>
-              </div>
-              <div class="w-col w-col-6 w-col-stack">
-                <div class="align-left make-with-margin">
-                  <a href="/licensing" class="link add-margin-link"
-                    >Image Licensing</a
-                  ><a href="style-guide.html" class="link">Style Guide</a>
                 </div>
               </div>
             </div>
