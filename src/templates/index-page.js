@@ -37,11 +37,11 @@ export const IndexPageTemplate = ({
       <div
         style={{
           display: "flex",
-          height: "250px",
+          height: "500px",
           width: "700px",
           lineHeight: "1",
           justifyContent: "space-around",
-          alignItems: "left",
+          alignItems: "center",
           flexDirection: "column",
           padding: "10px"
         }}
@@ -49,15 +49,23 @@ export const IndexPageTemplate = ({
         <h1 className="has-text-weight-bold is-size-3 header-bg has-text-centered">
           {title}
         </h1>
+
+        <iframe
+          width="560"
+          src="https://www.youtube.com/embed/eyCE4gXs8FQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <div className="is-vertical-center">
           <h3 className="has-text-weight-bold is-size-5 header-bg has-text-centered">
-            {subheading}
+            The solution to detect damages early
           </h3>
         </div>
         <div className="columns">
           <div className="column is-12 has-text-centered">
             <Link className="btn" to="/product">
-              Tell me how!!
+              Tell me how!
             </Link>
           </div>
         </div>
