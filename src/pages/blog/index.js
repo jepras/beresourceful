@@ -19,6 +19,7 @@ export default class BlogIndexPage extends React.Component {
                   Accelerating the construction industry's sustainable
                   transition
                 </p>
+                &nbsp;
                 <h5 className="title is-5">Recent posts</h5>
                 <Recent />
                 &nbsp;
