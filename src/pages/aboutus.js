@@ -17,7 +17,6 @@ import christian from "../img/christian.jpeg";
 import manuel from "../img/manuel.jpeg";
 import amit from "../img/amit.jpeg";
 import lone from "../img/lone.jpeg";
-import preben from "../img/preben.jpeg";
 
 const AboutUs = ({}) => {
   return (
@@ -243,20 +242,6 @@ const AboutUs = ({}) => {
                   <h1>Backed by proven industry achieved advisors</h1>
 
                   <div className="columns has-text-centered">
-                    <div className="column">
-                      <div>
-                        <img
-                          className="team-advisors"
-                          src={preben}
-                          alt="preben"
-                        />
-                      </div>
-                      <h4 className="team-advisors-title">Preben Gramstrup</h4>
-                      <p className="team-title">
-                        Bringing +30 years of insights from working with
-                        Facility Management
-                      </p>
-                    </div>
                     <div className="column">
                       <div>
                         <img
